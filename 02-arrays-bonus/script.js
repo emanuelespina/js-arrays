@@ -29,5 +29,5 @@ console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
 
-delete teachers [5];
+delete teachers [teachers.indexOf("Ed")];
 console.log(teachers);
